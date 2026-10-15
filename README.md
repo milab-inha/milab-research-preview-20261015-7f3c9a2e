@@ -6,7 +6,7 @@ The production repository and website have not been edited. This repository is i
 
 ## Editing
 
-The preview is plain HTML, CSS, and JavaScript. Edit the corresponding HTML page, `style.css`, or `site.js`. Deploy from `main` / root in GitHub Pages. All local links are relative, so the same files work under this long preview address.
+The preview is plain HTML, CSS, and JavaScript. The homepage News section supports up to ten recent entries; update `news.json` in the local source and rebuild, or edit the news markup in `index.html`. Edit the corresponding HTML page, `style.css`, or `site.js`. Deploy from `main` / root in GitHub Pages. All local links are relative, so the same files work under this long preview address.
 
 ## Provenance
 
@@ -19,6 +19,6 @@ The preview is plain HTML, CSS, and JavaScript. Edit the corresponding HTML page
 - Research figures are reproduced unaltered with attribution to their authors and original project pages. The CLAMP project page is CC BY-SA 4.0.
 - Hero distribution diagram: original conceptual illustration, explicitly labeled; it is not an empirical result.
 
-All 21 bibliography entries, 11 current/past members, 8 courses, and 9 grants from the retained snapshot are represented. Publication statuses follow the existing public bibliography. Reward-guided diverse design is labeled emerging. No private career discussion or unpublished research results are included.
+All 21 bibliography entries, 11 current/past members, 8 courses, and 9 grants from the retained snapshot are represented. Publication statuses follow the existing public bibliography. News is limited to the ten most recent source-backed announcements, with two visible before expansion. No unpublished research results are included.
 
 Search engines are asked not to index the preview through page metadata and `robots.txt`; this is a public preview, not an access restriction.
