@@ -122,3 +122,92 @@ h3{font-weight:600;letter-spacing:-.015em}
  .profile .focus,.contact-grid .email{font-size:18px}
 }
 @media print{.page-head h1,.profile h1{font-size:28px}h2{font-size:20px}}
+
+/* People and faculty: a readable directory and a focused academic profile. */
+.group-pi{display:grid;grid-template-columns:160px minmax(0,1fr);gap:36px;align-items:start;padding:32px 0 38px;border-top:1px solid var(--line)}
+.group-pi>img{width:160px;height:200px;object-fit:cover;border-radius:2px}
+.group-pi .eyebrow{margin-bottom:8px}
+.group-pi h2{font-size:30px;line-height:1.2;letter-spacing:-.025em}
+.group-pi h2 a{color:var(--ink)}
+.faculty-role{font-size:14px;line-height:1.65;color:var(--muted);margin-top:12px}
+.pi-intro{font-size:15px;line-height:1.75;max-width:690px;margin-top:17px}
+.faculty-links{display:flex;flex-wrap:wrap;gap:10px 23px;margin-top:20px;font-size:13px;line-height:1.7}
+.faculty-links a{font-weight:500}
+.people-heading{margin:0 0 25px;padding-top:30px}
+.people-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 48px;padding-bottom:9px}
+.people-grid .person{grid-template-columns:88px minmax(0,1fr);gap:20px;padding:0 0 26px;margin-bottom:25px;border-bottom:1px solid var(--line)}
+.people-grid .person img{width:88px;height:108px}
+.person h3{font-size:16px;line-height:1.4;margin:2px 0 4px}
+.person .role{font-size:12px;line-height:1.5;margin:0 0 11px}
+.person p{font-size:13px;line-height:1.65}
+.alumni{gap:24px 48px;padding-bottom:35px}
+.alumni .person{grid-template-columns:55px minmax(0,1fr);gap:17px}
+.alumni .person .role{margin-bottom:7px}
+.faculty-page{max-width:1040px;margin:auto}
+.faculty-hero{display:grid;grid-template-columns:180px minmax(0,1fr);gap:42px;align-items:center;padding:50px 0 42px}
+.faculty-hero>img{width:180px;height:225px;object-fit:cover;border-radius:2px}
+.faculty-hero .eyebrow{margin-bottom:10px}
+.faculty-hero h1{font-size:var(--type-title);line-height:1.2;letter-spacing:-.035em}
+.faculty-focus{font-size:18px;line-height:1.55;font-weight:500;color:var(--ink);max-width:560px;margin-top:18px}
+.faculty-section{display:grid;grid-template-columns:205px minmax(0,1fr);gap:40px;padding:34px 0;border-top:1px solid var(--line)}
+.faculty-section h2,.faculty-background h2{font-size:22px;line-height:1.4}
+.faculty-prose{font-size:15px;line-height:1.8;max-width:720px}
+.faculty-prose .text-link{font-size:13px;margin-top:17px}
+.faculty-section-link{display:inline-block;font-size:12px;margin-top:12px}
+.contribution{padding:0 0 17px;margin-bottom:17px;border-bottom:1px solid var(--line)}
+.contribution:last-child{border:0;padding-bottom:0;margin-bottom:0}
+.contribution-top{display:flex;justify-content:space-between;align-items:baseline;gap:15px}
+.contribution h3{font-size:16px;line-height:1.5}
+.contribution p{font-size:14px;line-height:1.7;margin-top:5px}
+.contribution-top p{font-size:12px;color:var(--muted);margin:0;flex-shrink:0}
+.faculty-background{display:grid;grid-template-columns:1fr 1fr;gap:55px;border-top:1px solid var(--line);padding:34px 0}
+.faculty-timeline{list-style:none;padding:0;margin:18px 0 0}
+.faculty-timeline li{display:grid;grid-template-columns:100px minmax(0,1fr);gap:18px;padding:13px 0}
+.faculty-timeline time{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;padding-top:2px}
+.faculty-timeline h3{font-size:14px;line-height:1.5}
+.faculty-timeline p{font-size:13px;line-height:1.65;color:var(--muted);margin-top:4px}
+.faculty-timeline .advisors{font-size:12px;margin-top:7px}
+@media(max-width:1000px){
+ .faculty-background{gap:30px}
+ .faculty-timeline li{grid-template-columns:90px minmax(0,1fr);gap:12px}
+ .faculty-section{grid-template-columns:175px minmax(0,1fr);gap:30px}
+ .people-grid{column-gap:30px}
+}
+@media(max-width:760px){
+ .group-pi{grid-template-columns:88px minmax(0,1fr);gap:0 20px;padding:26px 0 30px}
+ .group-pi>div{display:contents}
+ .group-pi>img{width:88px;height:110px;grid-row:1/4}
+ .group-pi .eyebrow,.group-pi h2,.group-pi .faculty-role{grid-column:2}
+ .group-pi .eyebrow{font-size:11px;margin-bottom:5px}
+ .group-pi h2{font-size:25px}
+ .group-pi .faculty-role{font-size:12px;line-height:1.65;margin-top:9px}
+ .group-pi .pi-intro,.group-pi .faculty-links{grid-column:1/-1}
+ .pi-intro{font-size:14px;margin-top:22px}
+ .faculty-links{font-size:12px;gap:10px 20px;margin-top:18px}
+ .people-heading{padding-top:27px;margin-bottom:24px}
+ .people-grid{grid-template-columns:1fr;gap:0}
+ .people-grid .person{grid-template-columns:80px minmax(0,1fr);gap:20px;padding-bottom:23px;margin-bottom:23px}
+ .people-grid .person img{width:80px;height:100px}
+ .person .role{font-size:12px}
+ .alumni{grid-template-columns:1fr;gap:24px;padding-bottom:28px}
+ .faculty-hero{grid-template-columns:88px minmax(0,1fr);gap:0 20px;padding:34px 0 30px;align-items:start}
+ .faculty-hero>div{display:contents}
+ .faculty-hero>img{width:88px;height:110px;grid-row:1/4}
+ .faculty-hero .eyebrow,.faculty-hero h1,.faculty-hero .faculty-role{grid-column:2}
+ .faculty-hero .eyebrow{font-size:11px;line-height:1.5;margin-bottom:8px}
+ .faculty-hero h1{font-size:30px}
+ .faculty-hero .faculty-role{font-size:12px;line-height:1.65;margin-top:10px}
+ .faculty-focus,.faculty-hero .faculty-links{grid-column:1/-1}
+ .faculty-focus{font-size:17px;line-height:1.6;margin-top:24px}
+ .faculty-section{grid-template-columns:1fr;gap:18px;padding:28px 0}
+ .faculty-section h2,.faculty-background h2{font-size:22px}
+ .faculty-prose{font-size:14px;line-height:1.8}
+ .faculty-section-link{margin-top:7px}
+ .contribution-top{align-items:start;flex-direction:column;gap:2px}
+ .contribution p{font-size:13px}
+ .contribution-top p{font-size:11px}
+ .faculty-background{grid-template-columns:1fr;gap:28px;padding:28px 0}
+ .faculty-timeline{margin-top:12px}
+ .faculty-timeline li{grid-template-columns:92px minmax(0,1fr);gap:16px;padding:11px 0}
+}
+@media print{.faculty-hero,.group-pi{break-inside:avoid}.faculty-hero{padding-top:0}.contribution,.faculty-timeline li{break-inside:avoid}}
