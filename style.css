@@ -64,3 +64,17 @@
 @media(prefers-reduced-motion:reduce){.paper-image{transition:none}}
 
 .concept figcaption span{display:inline;font-size:inherit;letter-spacing:0;text-transform:none;margin:0 4px}.concept figcaption a{font-size:inherit;color:var(--muted)}
+
+/* Revision 4: direct academic introduction. */
+.hero{padding-top:60px;padding-bottom:52px}
+.hero h1{font-family:var(--sans);font-size:42px;font-weight:600;line-height:1.2;letter-spacing:-.035em;color:#24312d}
+.hero .eyebrow{font-size:12px;font-weight:400;line-height:1.5;letter-spacing:0;text-transform:none;color:var(--muted);margin-bottom:20px}
+.hero .intro{font-size:16px;line-height:1.75;max-width:470px;margin-top:21px}
+.hero .director{margin-top:20px}
+.hero .text-link{margin-top:22px;border-bottom:0;padding-bottom:0;font-size:13px}
+.hero .text-link:hover{text-decoration:underline}
+@media(min-width:1450px){.hero{padding-top:72px;padding-bottom:62px}.hero h1{font-size:45px}}
+@media(max-width:1050px){.hero h1{font-size:35px}.hero{padding-top:50px;padding-bottom:44px}}
+@media(min-width:761px) and (max-width:850px){.hero h1{font-size:30px}.hero .intro{font-size:15px}.hero .eyebrow{font-size:11px}}
+@media(max-width:760px){.hero{padding-top:35px;padding-bottom:32px;gap:30px}.hero h1{font-size:clamp(30px,6.8vw,38px);line-height:1.23;letter-spacing:-.03em;max-width:540px}.hero .eyebrow{font-size:11px;margin-bottom:17px}.hero .intro{font-size:16px;margin-top:18px}.hero .director{margin-top:18px}.hero .text-link{margin-top:18px}}
+@media(max-width:370px){.hero h1{font-size:28px}.hero .eyebrow{font-size:10px}}
