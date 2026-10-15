@@ -17,7 +17,7 @@ The preview is plain HTML, CSS, and JavaScript. The homepage News section suppor
 - FAST-DIPS figure: https://fast-dips.github.io/static/images/main_figure.jpg
 - FCM figure: https://fcm2025.github.io/static/images/main_figure.jpg
 - Research figures are reproduced unaltered with attribution to their authors and original project pages. The CLAMP project page is CC BY-SA 4.0.
-- Hero distribution diagram: original conceptual illustration, explicitly labeled; it is not an empirical result.
+- Hero distribution diagram: an analytic Gaussian-mixture Bayesian update, composed in Adobe Photoshop with editable type and embedded SVG geometry. Contours enclose 95, 85, 70, and 50 percent of density over a shared domain; the observation band denotes one noise standard deviation. Explicitly illustrative, not an empirical result.
 
 All 21 bibliography entries, 11 current/past members, 8 courses, and 9 grants from the retained snapshot are represented. Publication statuses follow the existing public bibliography. News is limited to the ten most recent source-backed announcements, with two visible before expansion. No unpublished research results are included.
 

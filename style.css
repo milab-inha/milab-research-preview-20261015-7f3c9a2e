@@ -12,3 +12,55 @@
 @media(max-width:760px){.brand-mark{width:43px;height:38px}.brand{gap:11px}}
 
 .brand-logo{width:260px;height:auto;display:block}@media(max-width:760px){.brand-logo{width:225px}}
+
+/* Revision 3: editorial homepage, with Adobe-composed research artwork. */
+.wrap{max-width:1200px;padding-left:44px;padding-right:44px}
+.header-inner{min-height:98px}
+.brand-logo{width:270px}
+.nav{gap:25px}
+.hero{grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);gap:64px;padding:80px 0 66px;align-items:center}
+.hero h1{font-size:clamp(45px,4.9vw,60px);line-height:1.14;letter-spacing:-.042em}
+.hero .eyebrow{margin-bottom:24px;letter-spacing:.16em;font-size:10px}
+.hero .intro{max-width:500px;font-size:17px;line-height:1.8;margin-top:24px}
+.hero .director{max-width:430px;font-size:12px;line-height:1.75;margin-top:22px}
+.hero .text-link{margin-top:25px;border-bottom:1px solid #aabfb1;padding-bottom:5px;text-decoration:none}
+.hero .text-link:hover{border-color:var(--green)}
+.concept{display:block;padding:6px 0 0;min-width:0}
+.concept img{width:100%;height:auto}
+.concept figcaption{max-width:none;font-size:11px;line-height:1.7;margin:12px auto 0;color:var(--muted)}
+.concept figcaption span{display:block;font-size:9px;letter-spacing:.08em;text-transform:uppercase;margin-top:3px;color:#748379}
+.themes{gap:0}
+.theme{padding:0 30px;border-left:1px solid var(--line)}
+.theme:first-child{padding-left:0;border-left:0}
+.theme:last-child{padding-right:0}
+.theme-index{font-size:12px;font-family:var(--serif);font-style:italic;color:#81927f;margin-bottom:13px}
+.theme h3{font-size:18px;letter-spacing:-.015em}
+.theme p{font-size:13px;max-width:290px;line-height:1.75}
+.section{padding:42px 0}
+#selected{padding-top:49px}
+#selected .section-top{margin-bottom:35px}
+#selected .section-top h2{font-size:33px}
+.selected-list{gap:30px}
+.selected-work{grid-template-columns:340px minmax(0,1fr);gap:42px;padding-bottom:30px}
+.paper-image{aspect-ratio:1.88;border:1px solid #e0e6de;padding:18px;background:#fff;transition:border-color .2s ease}
+.paper-image:hover{border-color:#9eafa0}
+.paper-image img{max-height:155px;object-fit:contain}
+.selected-work h3{font-size:26px;line-height:1.35;max-width:570px}
+.selected-work p{font-size:14px;max-width:560px;margin-top:8px}
+.selected-work .paper-venue{font-size:10px;margin-top:0;margin-bottom:9px}
+.selected-work .links{margin-top:15px}
+.home-bottom{gap:75px;grid-template-columns:1.25fr 1fr;padding:40px 0 44px}
+.home-bottom>div:last-child{border-left:1px solid var(--line);padding-left:38px}
+.home-bottom h2{font-size:29px;margin-bottom:20px}
+.updates li{padding-bottom:13px;margin-bottom:13px;border-bottom:1px solid #e7ebe4;font-size:13px}
+.updates li:last-child{border-bottom:0;padding-bottom:0}
+.join-copy{max-width:360px;line-height:1.8}
+.footer{margin-top:0;padding-top:29px}
+@media(min-width:1450px){.wrap{max-width:1260px}.hero{gap:76px;padding-top:90px;padding-bottom:78px}.hero h1{font-size:64px}.selected-work{grid-template-columns:365px minmax(0,1fr)}}
+@media(max-width:1050px){.wrap{padding-left:32px;padding-right:32px}.nav{gap:17px}.brand-logo{width:245px}.hero{gap:32px;padding-top:62px;padding-bottom:52px}.hero h1{font-size:46px}.hero .intro{font-size:16px}.theme{padding:0 23px}.theme h3{font-size:16px}.selected-work{grid-template-columns:300px minmax(0,1fr);gap:30px}.selected-work h3{font-size:24px}}
+@media(min-width:761px) and (max-width:850px){.nav{gap:12px}.nav a{font-size:12px}.brand-logo{width:225px}.hero{gap:24px}.hero h1{font-size:39px}.hero .intro{font-size:15px}.concept figcaption{font-size:10px}.selected-work{grid-template-columns:270px minmax(0,1fr)}}
+@media(max-width:760px){.wrap{padding-left:24px;padding-right:24px}.header-inner{min-height:80px}.brand-logo{width:228px}.nav{gap:0}.hero{grid-template-columns:1fr;gap:36px;padding:44px 0 35px}.hero h1{font-size:clamp(36px,8.8vw,54px)}.hero .eyebrow{font-size:9px;margin-bottom:20px}.hero .intro{font-size:16px;line-height:1.8;max-width:520px}.hero .director{font-size:12px;max-width:360px;margin-top:19px}.hero .text-link{margin-top:22px}.concept{display:block;max-width:440px;width:100%;justify-self:center;padding:0}.concept figcaption{font-size:10px;margin-top:9px}.concept figcaption span{font-size:8px}.themes{gap:24px}.theme,.theme:first-child,.theme:last-child{border-left:0;padding:0}.theme-index{margin-top:4px}.theme h3{font-size:17px}.theme p{max-width:none;font-size:13px}.section{padding:32px 0}#selected{padding-top:34px}#selected .section-top{margin-bottom:26px}#selected .section-top h2{font-size:28px}.selected-list{gap:28px}.selected-work{grid-template-columns:1fr;gap:18px;padding-bottom:28px}.paper-image{aspect-ratio:1.95;max-height:230px;padding:15px}.paper-image img{max-height:195px}.selected-work h3{font-size:25px}.selected-work .links{margin-top:12px}.home-bottom{grid-template-columns:1fr;gap:31px;padding:32px 0}.home-bottom>div:last-child{border-left:0;border-top:1px solid var(--line);padding-left:0;padding-top:30px}.home-bottom h2{font-size:27px;margin-bottom:17px}.footer{padding-top:25px}.nav a{font-size:14px}}
+@media(max-width:370px){.wrap{padding-left:20px;padding-right:20px}.brand-logo{width:208px}.menu-toggle{padding:7px 11px}.hero h1{font-size:35px}}
+@media(prefers-reduced-motion:reduce){.paper-image{transition:none}}
+
+.concept figcaption span{display:inline;font-size:inherit;letter-spacing:0;text-transform:none;margin:0 4px}.concept figcaption a{font-size:inherit;color:var(--muted)}
