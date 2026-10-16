@@ -54,7 +54,11 @@
 .home-bottom h2{font-size:29px;margin-bottom:20px}
 .updates li{grid-template-columns:80px minmax(0,1fr);gap:14px;padding-bottom:13px;margin-bottom:13px;border-bottom:1px solid #e7ebe4;font-size:13px}
 .updates time{white-space:nowrap;line-height:1.8}
-.news-date-note{font-size:11px;color:var(--muted);margin-top:14px}
+.updates .news-highlight a{color:var(--green)}
+.updates .news-highlight strong{font-weight:650}
+.news-collapse{display:block;background:none;border:0;color:var(--green);font:600 12px/1.5 var(--sans);padding:10px 0;min-height:44px;margin-top:13px;cursor:pointer}
+.news-collapse:hover{text-decoration:underline;text-underline-offset:4px}
+.news-collapse span{margin-left:8px}
 .updates li:last-child{border-bottom:0;padding-bottom:0}
 .join-copy{max-width:360px;line-height:1.8}
 .footer{margin-top:0;padding-top:29px}

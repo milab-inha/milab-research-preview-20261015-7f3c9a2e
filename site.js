@@ -16,6 +16,17 @@ if (menu && nav) {
     }
   });
 }
+const newsArchive = document.querySelector('#news-archive');
+const newsCollapse = newsArchive?.querySelector('.news-collapse');
+if (newsCollapse) {
+  newsCollapse.hidden = false;
+  newsCollapse.addEventListener('click', () => {
+    newsArchive.open = false;
+    newsArchive.querySelector('summary').focus({ preventScroll: true });
+    document.querySelector('#news').scrollIntoView({ block: 'start', behavior: 'instant' });
+  });
+}
+
 const search = document.querySelector('#pub-search');
 if (search) {
   const year = document.querySelector('#pub-year');
