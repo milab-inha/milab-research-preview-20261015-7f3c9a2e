@@ -41,7 +41,12 @@ if (search) {
       if (match) visible++;
     }
     for (const section of document.querySelectorAll('.pub-year, .pub-group')) {
-      section.hidden = !Array.from(section.querySelectorAll('.pub')).some(p => !p.hidden);
+      const visibleCount = Array.from(section.querySelectorAll('.pub')).filter(p => !p.hidden).length;
+      section.hidden = visibleCount === 0;
+      if (section.classList.contains('pub-group')) {
+        const noun = section.dataset.pubType === 'conference' ? 'paper' : 'article';
+        section.querySelector('.pub-group-count').textContent = `${visibleCount} ${noun}${visibleCount === 1 ? '' : 's'}`;
+      }
     }
     document.querySelector('#pub-count').textContent = `${visible} of ${pubs.length} publications`;
     document.querySelector('#no-results').hidden = visible !== 0;
