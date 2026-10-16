@@ -13,8 +13,8 @@ The site is plain HTML, CSS, and JavaScript. Local source: `build.py`, `static/`
 - Lab content: https://github.com/milab-inha/milab-inha.github.io at `9a741822a57761fd7d94e7cf2b9243fe31ca6af1`.
 - Complete bibliography: `papers.bib` (unaltered source file).
 - Member photos: original public lab repository, with a group photo supplied by the lab. Display-sized WebP copies use the same framing and colors; full-size originals are retained.
-- Teaching dates: instructor-supplied October 2026 CV.
-- CV: instructor-supplied PDF, unchanged.
+- Teaching dates: instructor-supplied October 2026 CV and subsequent instructor corrections.
+- CV: rebuilt from the instructor-supplied LaTeX source, with the Fall 2024 energy-process course offering and corrected Google Scholar link added on October 16, 2026.
 - Teaching flyers: rebuilt from the instructor-supplied course materials on October 16, 2026. Local editable content and the PDF generator are in `course-flyers/`; the original teaching flyers remain in the retained snapshot. Only the new one-page summaries are published, not the supplied course archives.
 - CLAMP figure: https://clamp2026.github.io/static/images/method_figure.jpg
 - FAST-DIPS figure: https://fast-dips.github.io/static/images/main_figure.jpg
