@@ -222,3 +222,155 @@ h3{font-weight:600;letter-spacing:-.015em}
  .faculty-timeline li{grid-template-columns:92px minmax(0,1fr);gap:16px;padding:11px 0}
 }
 @media print{.faculty-hero,.group-pi{break-inside:avoid}.faculty-hero{padding-top:0}.contribution,.faculty-timeline li{break-inside:avoid}}
+
+/* Readable text and a compact, consistent rhythm across the lab site. */
+:root{--type-title:44px;--type-section:26px;--type-item:22px;--type-body:17px;--type-small:15px;--type-meta:14px}
+body{font-size:var(--type-body);line-height:1.6}
+.header-inner{min-height:82px}
+.nav{gap:22px}
+.nav a{font-size:var(--type-small)}
+.eyebrow,.hero .eyebrow,.research-block .num,.theme-index{font-size:var(--type-meta)}
+.page-head{padding:32px 0 24px}
+.page-head .lead{font-size:var(--type-body);line-height:1.6;margin-top:12px}
+.hero{padding:38px 0 32px;gap:40px}
+.hero h1{font-size:44px;line-height:1.18}
+.hero .eyebrow{margin-bottom:12px}
+.hero .intro{font-size:18px;line-height:1.6;margin-top:16px;max-width:520px}
+.hero .director{font-size:var(--type-small);line-height:1.5;margin-top:14px}
+.text-link,.hero .text-link{font-size:var(--type-small)}
+.hero .text-link{margin-top:16px}
+.concept figcaption{font-size:13px;line-height:1.5;margin-top:8px}
+.section,#selected{padding:28px 0}
+.section-top,#selected .section-top{margin-bottom:18px}
+.section-top a{font-size:var(--type-small)}
+.theme{padding:0 24px}
+.theme-index{margin-bottom:7px}
+.theme h3{font-size:20px;line-height:1.35;margin-bottom:7px}
+.theme p{font-size:16px;line-height:1.55;max-width:none}
+.selected-list{gap:22px}
+.selected-work{grid-template-columns:300px minmax(0,1fr);gap:28px;padding-bottom:22px}
+.selected-work h3{font-size:var(--type-item);line-height:1.35}
+.selected-work p{font-size:16px;line-height:1.55;margin-top:6px}
+.paper-venue,.selected-work .paper-venue{font-size:var(--type-meta);margin-bottom:6px}
+.selected-work .links{margin-top:10px}
+.links{font-size:var(--type-meta);gap:16px;line-height:1.5}
+.updates li{grid-template-columns:88px minmax(0,1fr);gap:14px;font-size:16px;line-height:1.5;padding-bottom:9px;margin-bottom:9px}
+.updates time{font-size:var(--type-meta);line-height:1.7}
+.news-more{font-size:var(--type-small);margin-top:12px}
+.news-more .updates{margin-top:12px}
+.news-collapse{font-size:var(--type-small);margin-top:8px}
+.join-copy{font-size:16px;line-height:1.55;max-width:650px;margin-bottom:10px}
+.footer{padding:20px 0}
+.footer-inner{font-size:13px;line-height:1.5}
+.preview-note{font-size:12px}
+.research-block{gap:18px;padding:24px 0}
+.research-block h2{line-height:1.35}
+.research-block p{font-size:var(--type-body);line-height:1.6;margin-top:10px;max-width:780px}
+.research-block .question{font-size:19px;line-height:1.5}
+.research-foot{font-size:16px;line-height:1.55;padding:18px 22px;margin-top:8px}
+.filters{gap:14px;padding-bottom:18px}
+.filters label{font-size:var(--type-meta);margin-bottom:5px}
+.filters input,.filters select{font-size:16px;padding:8px 12px}
+.pub-year{grid-template-columns:75px minmax(0,1fr);gap:22px;padding-top:18px}
+.pub-year h2{font-size:23px}
+.pub h4{font-size:18px;line-height:1.45}
+.pub{padding-bottom:18px;margin-bottom:16px}
+.pub .authors,.pub .venue{font-size:var(--type-small);line-height:1.5}
+.pub .authors{margin-top:5px}
+.pub .recognition{font-size:var(--type-meta)}
+.pub-type-heading{font-size:var(--type-small);padding:8px 14px;margin-bottom:16px}
+.pub-group:not([hidden])~.pub-group:not([hidden]){margin-top:22px}
+.group-pi{grid-template-columns:140px minmax(0,1fr);gap:28px;padding:24px 0 28px}
+.group-pi>img{width:140px;height:175px}
+.group-pi h2{font-size:32px}
+.faculty-role{font-size:16px;line-height:1.5;margin-top:9px}
+.faculty-links{font-size:var(--type-small);line-height:1.5;margin-top:14px}
+.people-heading{padding-top:22px;margin-bottom:20px}
+.people-grid{column-gap:36px;padding-bottom:0}
+.people-grid .person{gap:16px;padding-bottom:16px;margin-bottom:16px}
+.person h3{font-size:18px;line-height:1.35}
+.person p{font-size:var(--type-small);line-height:1.5}
+.person .role{font-size:var(--type-meta);margin-bottom:7px}
+.person .links{font-size:var(--type-meta)}
+.alumni{gap:20px 36px;padding-bottom:24px}
+.faculty-hero{grid-template-columns:160px minmax(0,1fr);gap:32px;padding:32px 0 28px}
+.faculty-hero>img{width:160px;height:200px}
+.faculty-background{gap:36px;padding:24px 0}
+.faculty-background h2{font-size:var(--type-section)}
+.faculty-timeline{margin-top:12px}
+.faculty-timeline li{grid-template-columns:108px minmax(0,1fr);gap:14px;padding:10px 0}
+.faculty-timeline time{font-size:var(--type-meta)}
+.faculty-timeline h3{font-size:16px;line-height:1.4}
+.faculty-timeline p{font-size:var(--type-small);line-height:1.5;margin-top:3px}
+.faculty-timeline .advisors{font-size:var(--type-meta);margin-top:5px}
+.course-group,.grant-group{margin:0 0 26px}
+.course-group h2,.grant-group h2{margin:16px 0 8px}
+.course{padding:14px 0;gap:18px;font-size:var(--type-small)}
+.course h3,.grant h3{font-size:17px;line-height:1.45}
+.course .terms,.course a{font-size:var(--type-meta);line-height:1.5}
+.grant{padding:14px 0;gap:20px}
+.grant p,.grant .dates{font-size:var(--type-meta);line-height:1.5}
+.grant p{margin-top:4px}
+.status{font-size:12px;padding:3px 6px}
+.contact-grid{gap:40px;padding:24px 0}
+.contact-grid h2{margin-bottom:12px}
+.contact-grid p,.contact-grid address{font-size:16px;line-height:1.6}
+.contact-grid .email{font-size:22px;margin-bottom:10px}
+.button{font-size:var(--type-small)}
+.divider-note{font-size:var(--type-meta);margin:12px 0}
+@media(min-width:1450px){.hero{padding:44px 0 36px;gap:48px}.hero h1{font-size:46px}}
+@media(max-width:1050px){.nav{gap:16px}.hero{gap:28px}.hero h1{font-size:38px}.selected-work{grid-template-columns:260px minmax(0,1fr);gap:24px}}
+@media(max-width:860px){
+ .header-inner{min-height:76px;flex-wrap:wrap;gap:0}
+ .menu-toggle{display:block;font-size:var(--type-meta);min-height:44px}
+ .nav{width:100%;display:none;flex-wrap:wrap;gap:0;padding:8px 0 14px}
+ .nav.open{display:flex}
+ .nav a{width:33.33%;padding:8px 0;font-size:var(--type-small)}
+}
+@media(max-width:760px){
+ :root{--type-title:36px;--type-section:25px;--type-item:21px}
+ .wrap{padding-left:22px;padding-right:22px}
+ .brand-logo{width:220px}
+ .page-head{padding:26px 0 22px}
+ .page-head .eyebrow,.hero .eyebrow{font-size:var(--type-meta)}
+ .page-head .lead{font-size:var(--type-body);line-height:1.6;margin-top:10px}
+ .hero{padding:28px 0 24px;gap:22px}
+ .hero h1{font-size:clamp(33px,7vw,40px);line-height:1.2}
+ .hero .intro{font-size:18px;margin-top:14px}
+ .hero .director{font-size:var(--type-small);margin-top:12px}
+ .concept{max-width:370px}
+ .section,#selected{padding:24px 0}
+ .section-top,#selected .section-top{margin-bottom:16px}
+ .themes{gap:20px}
+ .theme,.theme:first-child,.theme:last-child{padding:0}
+ .theme-index{margin-top:3px}
+ .theme h3{font-size:20px}
+ .selected-work{grid-template-columns:1fr;gap:14px;padding-bottom:20px}
+ .selected-list{gap:20px}
+ .updates li{grid-template-columns:76px minmax(0,1fr);gap:12px}
+ .research-block{grid-template-columns:25px minmax(0,1fr);gap:12px;padding:22px 0}
+ .research-block .question{font-size:18px}
+ .research-foot{padding:16px}
+ .filters{gap:10px}
+ .pub-year{grid-template-columns:minmax(0,1fr);gap:12px}
+ .pub-year h2{font-size:23px}
+ .pub h4{font-size:18px}
+ .group-pi{grid-template-columns:88px minmax(0,1fr);gap:0 18px;padding:20px 0 24px}
+ .group-pi>img{width:88px;height:110px}
+ .group-pi h2{font-size:27px}
+ .group-pi .eyebrow,.faculty-hero .eyebrow{font-size:var(--type-meta)}
+ .group-pi .faculty-role,.faculty-hero .faculty-role{font-size:var(--type-small);line-height:1.5;margin-top:7px}
+ .people-grid{column-gap:0}
+ .people-grid .person{gap:16px;padding-bottom:16px;margin-bottom:16px}
+ .faculty-hero{grid-template-columns:88px minmax(0,1fr);gap:0 18px;padding:26px 0 24px}
+ .faculty-hero>img{width:88px;height:110px}
+ .faculty-hero h1{font-size:32px}
+ .faculty-background{gap:22px;padding:22px 0}
+ .faculty-timeline li{grid-template-columns:100px minmax(0,1fr);gap:12px}
+ .course{gap:4px 14px}
+ .grant{gap:8px}
+ .contact-grid{gap:28px;padding:22px 0}
+ .footer-links{margin-top:12px}
+}
+@media(max-width:370px){.wrap{padding-left:18px;padding-right:18px}.brand-logo{width:200px}.menu-toggle{padding:7px 10px}.hero h1{font-size:32px}}
+@media print{body{font-size:12px}.page-head{padding:0 0 20px}.page-head h1,.faculty-hero h1{font-size:28px}}
