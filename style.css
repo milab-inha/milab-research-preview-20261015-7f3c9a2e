@@ -108,8 +108,9 @@ h3{font-weight:600;letter-spacing:-.015em}
 .pub-year h2{font-size:21px;font-weight:500;line-height:1.4;letter-spacing:-.015em;font-variant-numeric:tabular-nums}
 .pub h3{font-size:16px;line-height:1.55;letter-spacing:-.01em}
 .pub h4{margin:0;font-family:var(--sans);font-size:16px;line-height:1.55;font-weight:600;letter-spacing:-.01em;color:#24312d}
-.pub-type-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:0 0 22px;padding:10px 14px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--pale);font-size:13px;line-height:1.5;font-weight:600;letter-spacing:0;color:var(--ink)}
-.pub-group-count{flex-shrink:0;font-size:12px;font-weight:400;color:var(--muted);font-variant-numeric:tabular-nums}
+.pub-group{border-left:2px solid #cbd9d0}
+.pub-type-heading{margin:0 0 22px;padding:10px 14px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--pale);font-size:13px;line-height:1.5;font-weight:600;letter-spacing:0;color:var(--ink)}
+.pub-group>.pub{margin-left:14px}
 .pub-group:not([hidden])~.pub-group:not([hidden]){margin-top:28px}
 .pi-card h2{font-size:27px;line-height:1.3;letter-spacing:-.025em}
 .pi-card .eyebrow{margin-bottom:9px}
