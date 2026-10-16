@@ -260,6 +260,7 @@ body{font-size:var(--type-body);line-height:1.6}
 .news-more .updates{margin-top:12px}
 .news-collapse{font-size:var(--type-small);margin-top:8px}
 .join-copy{font-size:16px;line-height:1.55;max-width:650px;margin-bottom:10px}
+.join-section .join-copy{max-width:none}
 .footer{padding:20px 0}
 .footer-inner{font-size:13px;line-height:1.5}
 .preview-note{font-size:12px}
