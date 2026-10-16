@@ -43,7 +43,6 @@ if (search) {
     for (const section of document.querySelectorAll('.pub-year, .pub-group')) {
       section.hidden = !Array.from(section.querySelectorAll('.pub')).some(p => !p.hidden);
     }
-    document.querySelector('#pub-count').textContent = `${visible} of ${pubs.length} publications`;
     document.querySelector('#no-results').hidden = visible !== 0;
   };
   search.addEventListener('input', update);
