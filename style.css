@@ -289,6 +289,7 @@ body{font-size:var(--type-body);line-height:1.6}
 .people-heading{padding-top:22px;margin-bottom:20px}
 .people-grid{column-gap:36px;padding-bottom:0}
 .people-grid .person{gap:16px;padding-bottom:16px;margin-bottom:16px}
+.people-grid .person:last-child{border-bottom:0}
 .person h3{font-size:18px;line-height:1.35}
 .person p{font-size:var(--type-small);line-height:1.5}
 .person .role{font-size:var(--type-meta);margin-bottom:7px}
