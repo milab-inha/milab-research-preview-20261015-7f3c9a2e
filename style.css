@@ -293,6 +293,8 @@ body{font-size:var(--type-body);line-height:1.6}
 .person h3{font-size:18px;line-height:1.35}
 .person p{font-size:var(--type-small);line-height:1.5}
 .person .role{font-size:var(--type-meta);margin-bottom:7px}
+.person .program-start{display:block;font-variant-numeric:tabular-nums}
+.people-grid .role + p{margin-top:7px}
 .person .links{font-size:var(--type-meta)}
 .alumni{gap:20px 36px;padding-bottom:24px}
 .faculty-hero{grid-template-columns:160px minmax(0,1fr);gap:32px;padding:32px 0 28px}
