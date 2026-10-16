@@ -379,3 +379,6 @@ body{font-size:var(--type-body);line-height:1.6}
 }
 @media(max-width:370px){.wrap{padding-left:18px;padding-right:18px}.brand-logo{width:200px}.menu-toggle{padding:7px 10px}.hero h1{font-size:32px}}
 @media print{body{font-size:12px}.page-head{padding:0 0 20px}.page-head h1,.faculty-hero h1{font-size:28px}}
+
+/* Keep the course action together on narrow screens. */
+.course a{white-space:nowrap}
