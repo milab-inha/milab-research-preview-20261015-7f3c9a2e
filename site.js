@@ -40,7 +40,7 @@ if (search) {
       pub.hidden = !match;
       if (match) visible++;
     }
-    for (const section of document.querySelectorAll('.pub-year')) {
+    for (const section of document.querySelectorAll('.pub-year, .pub-group')) {
       section.hidden = !Array.from(section.querySelectorAll('.pub')).some(p => !p.hidden);
     }
     document.querySelector('#pub-count').textContent = `${visible} of ${pubs.length} publications`;
