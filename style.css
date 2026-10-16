@@ -146,13 +146,14 @@ h3{font-weight:600;letter-spacing:-.015em}
 .faculty-links a{font-weight:500}
 .people-heading{margin:0 0 25px;padding-top:30px}
 .people-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 48px;padding-bottom:9px}
-.people-grid .person{grid-template-columns:88px minmax(0,1fr);gap:20px;padding:0 0 26px;margin-bottom:25px;border-bottom:1px solid var(--line)}
-.people-grid .person img{width:88px;height:108px}
+.people-grid .person{grid-template-columns:112px minmax(0,1fr);gap:20px;padding:0 0 26px;margin-bottom:25px;border-bottom:1px solid var(--line)}
+.people-grid .person img{width:112px;height:140px}
 .person h3{font-size:16px;line-height:1.4;margin:2px 0 4px}
 .person .role{font-size:12px;line-height:1.5;margin:0 0 11px}
 .person p{font-size:13px;line-height:1.65}
 .alumni{gap:24px 48px;padding-bottom:35px}
-.alumni .person{grid-template-columns:55px minmax(0,1fr);gap:17px}
+.alumni .person{grid-template-columns:80px minmax(0,1fr);gap:17px}
+.alumni .person img{width:80px;height:100px}
 .alumni .person .role{margin-bottom:7px}
 .faculty-page{max-width:1040px;margin:auto}
 .faculty-hero{display:grid;grid-template-columns:180px minmax(0,1fr);gap:42px;align-items:center;padding:50px 0 42px}
@@ -197,8 +198,8 @@ h3{font-weight:600;letter-spacing:-.015em}
  .faculty-links{font-size:12px;gap:10px 20px;margin-top:18px}
  .people-heading{padding-top:27px;margin-bottom:24px}
  .people-grid{grid-template-columns:1fr;gap:0}
- .people-grid .person{grid-template-columns:80px minmax(0,1fr);gap:20px;padding-bottom:23px;margin-bottom:23px}
- .people-grid .person img{width:80px;height:100px}
+ .people-grid .person{grid-template-columns:96px minmax(0,1fr);gap:20px;padding-bottom:23px;margin-bottom:23px}
+ .people-grid .person img{width:96px;height:120px}
  .person .role{font-size:12px}
  .alumni{grid-template-columns:1fr;gap:24px;padding-bottom:28px}
  .faculty-hero{grid-template-columns:88px minmax(0,1fr);gap:0 20px;padding:34px 0 30px;align-items:start}
@@ -281,8 +282,8 @@ body{font-size:var(--type-body);line-height:1.6}
 .pub .recognition{font-size:var(--type-meta)}
 .pub-type-heading{font-size:var(--type-small);padding:8px 14px;margin-bottom:16px}
 .pub-group:not([hidden])~.pub-group:not([hidden]){margin-top:22px}
-.group-pi{grid-template-columns:140px minmax(0,1fr);gap:28px;padding:24px 0 28px}
-.group-pi>img{width:140px;height:175px}
+.group-pi{grid-template-columns:160px minmax(0,1fr);gap:28px;padding:24px 0 28px}
+.group-pi>img{width:160px;height:200px}
 .group-pi h2{font-size:32px}
 .faculty-role{font-size:16px;line-height:1.5;margin-top:9px}
 .faculty-links{font-size:var(--type-small);line-height:1.5;margin-top:14px}
@@ -360,8 +361,8 @@ body{font-size:var(--type-body);line-height:1.6}
  .pub-year{grid-template-columns:minmax(0,1fr);gap:12px}
  .pub-year h2{font-size:23px}
  .pub h4{font-size:18px}
- .group-pi{grid-template-columns:88px minmax(0,1fr);gap:0 18px;padding:20px 0 24px}
- .group-pi>img{width:88px;height:110px}
+ .group-pi{grid-template-columns:100px minmax(0,1fr);gap:0 18px;padding:20px 0 24px}
+ .group-pi>img{width:100px;height:125px}
  .group-pi h2{font-size:27px}
  .group-pi .eyebrow,.faculty-hero .eyebrow{font-size:var(--type-meta)}
  .group-pi .faculty-role,.faculty-hero .faculty-role{font-size:var(--type-small);line-height:1.5;margin-top:7px}
